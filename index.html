@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tshavhungwe Sikhwari</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+       </head>
+<body><!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="logo">Tshavhungwe</a>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+  
+    <header class="intro-container" id="home">
+       
+        <div class="profile-image">
+            <img src="/Tshavhu.jpeg" alt="Tshavhungwa">
+        </div>
+        
+       
+        <h1 class="name">Tshavhungwe Sikhwari</h1>
+        <p class="tagline">Student | web developer </p>
+        
+        <!-- Short introduction paragraph -->
+        <p class="intro-text">
+            Welcome to my portfolio! I'm passionate about creating beautiful, 
+            functional websites that solve real problems. My approach combines 
+            creative design with technical expertise.
+        </p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about-content">
+            <div class="academic-background">
+                <h3>Academic Background</h3>
+                <p>
+                    I am  Bachelor's in Computer Science  student at  University of Venda, 
+                    where I specialized in web development and user interface design. 
+                    My academic journey has equipped me with strong technical foundations 
+                    and problem-solving skills.
+                </p>
+            </div>
+            
+            <div class="skills-container">
+                <h3>Skills & Tools</h3>
+                <ul class="skills-list">
+                    <li>HTML5 & CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git & GitHub</li>
+                    <li>VS Code</li>
+                   
+                </ul>
+            </div>
+            
+            <div class="goals">
+                <h3>Goals</h3>
+                <p>
+                    I aim to create innovative digital experiences that combine aesthetic 
+                    appeal with exceptional functionality. My career goal is to lead creative 
+                    projects that push the boundaries of web development and design.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <h3 class="project-title">E-commerce Website</h3>
+                <p class="project-description">
+                    A fully responsive e-commerce platform with product filtering, 
+                    cart functionality, and secure checkout process.
+                </p>
+                <div class="tools-used">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                  
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <h3 class="project-title">Task Management App</h3>
+                <p class="project-description">
+                    A productivity application that helps users organize tasks, 
+                    set priorities, and track progress with a clean, intuitive interface.
+                </p>
+                <div class="tools-used">
+                    <span>HTML</span>
+                    <span>JavaScript</span>
+                    <span>CSS</span>
+             
+                </div>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Contact Me</h2>
+        
+        <div class="contact-content">
+            <p class="contact-intro">
+                I'm currently open to new opportunities and collaborations. 
+                Feel free to reach out!
+            </p>
+            
+            <div class="contact-item">
+                <i class="far fa-envelope"></i>
+                <a href="mailto:your.chavhuu@gmail.com">chavhuu@gmail.com</a>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/23004814" class="social-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                
+                <a href="https://www.linkedin.com/in/tshavhungwe-sikhwari-a80254284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" class="social-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 . All rights reserved. Made by Grace of God</p>
+    </footer>
+
+    <script>
+      
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('navLinks').classList.toggle('active');
+        });
+
+        
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('navLinks').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
